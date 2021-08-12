@@ -1,12 +1,9 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "883089db-39fd-4688-8815-9e6a3ca35ef2"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-material-skeleton": {
+    "ng-data-groups-material": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:application": {
@@ -20,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-material-skeleton",
+            "outputPath": "dist/ng-data-groups-material",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -69,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "ng-material-skeleton:build:production"
+              "browserTarget": "ng-data-groups-material:build:production"
             },
             "development": {
-              "browserTarget": "ng-material-skeleton:build:development"
+              "browserTarget": "ng-data-groups-material:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-material-skeleton:build"
+            "browserTarget": "ng-data-groups-material:build"
           }
         },
         "test": {
@@ -101,5 +98,5 @@
       }
     }
   },
-  "defaultProject": "ng-material-skeleton"
+  "defaultProject": "ng-data-groups-material"
 }
