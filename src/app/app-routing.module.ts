@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { ExampleComponent } from './pages/example/example.component';
+import { MatTextExampleComponent } from './pages/mat-text-example/mat-text-example.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'example', pathMatch: 'full' },
-  { path: 'example', component: ExampleComponent },
-  { path: '**', redirectTo: 'example', pathMatch: 'full' },
+  { path: '', redirectTo: 'mat-text-example', pathMatch: 'full' },
+  { path: 'mat-text-example', component: MatTextExampleComponent },
+  { path: '**', redirectTo: 'mat-text-example', pathMatch: 'full' },
 ];
 
 @NgModule({

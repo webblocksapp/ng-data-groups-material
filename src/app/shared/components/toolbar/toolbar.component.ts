@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'toolbar',
   template: `
     <mat-toolbar color="primary">
-      <span>Material Skeleton</span>
+      <span>NG Data Groups With Material</span>
     </mat-toolbar>
   `,
   styles: [``],

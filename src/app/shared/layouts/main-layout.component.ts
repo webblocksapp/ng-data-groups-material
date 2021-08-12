@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   template: `
     <toolbar></toolbar>
     <mat-sidenav-container>
-      <mat-drawer-container class="example-container">
+      <mat-drawer-container>
         <mat-drawer mode="side" opened>
           <sidebar></sidebar>
         </mat-drawer>
@@ -30,7 +30,7 @@ import { Component } from '@angular/core';
 
       :host ::ng-deep mat-drawer {
         width: 100%;
-        max-width: 130px;
+        max-width: 180px;
       }
 
       :host ::ng-deep mat-sidenav-container {

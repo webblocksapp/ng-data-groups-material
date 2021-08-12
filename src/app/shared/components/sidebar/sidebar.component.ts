@@ -17,5 +17,7 @@ import { Route } from '../../types';
   ],
 })
 export class SidebarComponent {
-  public routes: Route[] = [{ path: 'example', label: 'Example' }];
+  public routes: Route[] = [
+    { path: 'mat-text-example', label: 'Mat Text Example' },
+  ];
 }
