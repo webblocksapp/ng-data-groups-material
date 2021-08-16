@@ -12,6 +12,7 @@ import { Route } from '../../types';
     `
       button {
         width: 100%;
+        text-align: left;
       }
     `,
   ],
@@ -19,5 +20,6 @@ import { Route } from '../../types';
 export class SidebarComponent {
   public routes: Route[] = [
     { path: 'mat-text-example', label: 'Mat Text Example' },
+    { path: 'mat-text-area-example', label: 'Mat Text Area Example' },
   ];
 }
